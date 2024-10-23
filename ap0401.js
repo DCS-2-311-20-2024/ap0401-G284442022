@@ -349,6 +349,7 @@ function remakeBricks(){
     camera.updateProjectionMatrix();
     // 座標軸の表示
     axes.visible = param.axes;
+    axes.visible = false;
     // ゲーム画面の更新
     let delta = clock.getDelta(); // 経過時間の取得
     frameCheck(); // 枠の衝突判定
